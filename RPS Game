@@ -1,0 +1,26 @@
+# basic ROCK PAPER SCISSOR Game
+name = input("What is your name: ")
+print ("Hello, " + name + " welcome to Game")
+u1 = input("Enter your unit U1 rock paper scissors : "  ).lower()
+u2 = input("Enter your unit U2 rock paper scissors : "  ).lower()
+if u1 == u2:
+    print("Draw")
+elif u1 == "rock":
+     if u2 == "scissors":
+         print("U1 wins")
+     else:
+         print("U2 wins")
+elif u1 == "scissors": 
+    if u2 == "paper":
+        print("U1 wins")
+    else:
+        print("U2 wins")
+elif u1 == "paper":
+    if u2 == "rock":
+        print("U1 wins")
+    else:
+        print("U2 wins")
+else:
+    print("Invalid Input")
+
+print("GAME OVER")
