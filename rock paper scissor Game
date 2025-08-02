@@ -1,8 +1,8 @@
 # basic ROCK PAPER SCISSOR Game
 name = input("What is your name: ")
-print ("Hello, " + name + " welcome to Game")
-u1 = input("Enter your unit U1 rock paper scissors : "  ).lower()
-u2 = input("Enter your unit U2 rock paper scissors : "  ).lower()
+print ("Hello, " + name + " Welcome to The Game")
+u1 = input("Enter your unit U1 \'Rock\',\'Paper\',\'Scissors\' : "  ).lower()
+u2 = input("Enter your unit U2 \'Rock\',\'Paper\',\'Scissors\' : "  ).lower()
 if u1 == u2:
     print("Draw")
 elif u1 == "rock":
